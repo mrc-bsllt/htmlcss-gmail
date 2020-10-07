@@ -51,8 +51,9 @@ header .logo {
 main nav .server-input input{
   color: #000000;
   font-weight: 300;
-  border: 2px solid #6d2330;
-  padding: 2px;
+  border: 3px solid #6d2330;
+  border-radius: 30px;
+  padding: 5px;
   margin: 5px 3px;
 }
 /* /css nav */
