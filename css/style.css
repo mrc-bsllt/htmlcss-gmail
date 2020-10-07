@@ -9,7 +9,7 @@
 
 /* css generale */
 body {
-  background: url("../img/bg1.jpg") no-repeat center;
+  background: url("../img/bg.jpg") no-repeat center;
   background-size: cover;
 }
 body .container {
