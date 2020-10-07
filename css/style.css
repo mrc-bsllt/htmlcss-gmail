@@ -68,6 +68,7 @@ main nav .server-input input{
 }
 #notifications span {
   font-size: 50px;
+  color: #e1c276;
   background-color: #6d2330;
   padding: 15px;
   border-radius: 50%;
@@ -83,6 +84,9 @@ section .row {
 }
 section .unread{
   background-color: rgba(109,35,48,0.5);
+}
+section .unread .subject::before {
+  content: ' \003E   ';
 }
 section .row .object, section .row .subject {
   display: inline-block;
