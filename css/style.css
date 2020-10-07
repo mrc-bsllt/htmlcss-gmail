@@ -60,7 +60,7 @@ main nav .server-input input{
 /* /css nav */
 
 /* css paragrafo */
-#notifications {
+#notifications, #email {
   margin: 25px 0;
   text-align: center;
   font-family: 'Sansita Swashed', cursive;
