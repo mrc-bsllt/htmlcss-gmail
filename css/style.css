@@ -82,10 +82,10 @@ section .row {
   margin: 5px 0;
   padding: 5px;
 }
-section .unread{
+section .row.unread{
   background-color: rgba(109,35,48,0.5);
 }
-section .unread .subject::before {
+section .row.unread .subject::before {
   content: ' \003E   ';
 }
 section .row .object, section .row .subject {
