@@ -48,8 +48,8 @@ header .logo {
 }
 /* /css header */
 
-/* css nav */
-main nav .server-input input{
+/* css barra ricerca */
+main #search-bar .server-input input{
   color: #000000;
   font-weight: 300;
   border: 3px solid #6d2330;
@@ -57,7 +57,7 @@ main nav .server-input input{
   padding: 5px;
   margin: 5px 3px;
 }
-/* /css nav */
+/* /css barra ricerca */
 
 /* css paragrafo */
 #notifications, #email {
