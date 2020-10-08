@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 15px;
+  font-size: 1em;
   color: #ffffff;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 body .container {
   width: 60%;
-  height: 100%;
+  min-height: 100vh;
   padding: 10px;
   margin: auto;
   background-color: rgba(0,0,0,0.7);
@@ -66,10 +66,10 @@ main #search-bar .server-input input{
   font-family: 'Sansita Swashed', cursive;
 }
 #notifications, #notifications a {
-  font-size: 30px;
+  font-size: 1.5em;
 }
 #notifications span {
-  font-size: 50px;
+  font-size: 2em;
   color: #e1c276;
   background-color: #6d2330;
   padding: 15px;
@@ -80,7 +80,7 @@ main #search-bar .server-input input{
 
 /* css section */
 section .row {
-  width: 100%;
+  /* width: 100%; */
   border-bottom: 2px solid #000000;
   margin: 5px 0;
   padding: 5px;
@@ -96,7 +96,7 @@ section .row .object, section .row .subject {
 }
 section .row .object span {
   color: #000000;
-  font-size: 25px;
+  font-size: 1em;
 }
 section .row > input {
   width: 1%;
