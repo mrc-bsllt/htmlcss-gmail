@@ -57,6 +57,9 @@ main #search-bar .server-input input{
   padding: 5px;
   margin: 5px 3px;
 }
+#search-bar .server-input > input[type="text"]:focus {
+  outline: 0;
+}
 /* /css barra ricerca */
 
 /* css paragrafo */
